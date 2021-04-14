@@ -7,15 +7,14 @@
 
 ## 引用JmyDatePicker套件JS及CSS
 --JS
-----
+
 <script src="https://github.com/dstsidragon/myDatePickerUI/blob/main/js/datePicker.js"></script>
-----
+
 
 --css
-----
+
 <link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css">
-  
-----
+ 
 
 ## 套件html
 --html
