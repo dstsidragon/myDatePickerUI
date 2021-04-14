@@ -5,15 +5,16 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
-## 引用JmyDatePicker套件JS及CSS
+## 引用JmyDatePicker套件JS及CSS　 CDN
 --JS
 
 <script src="https://github.com/dstsidragon/myDatePickerUI/blob/main/js/datePicker.js"></script>
 
 
+
 --css
 
-<p><link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css"></p>
+link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css"
  
 
 ## 套件html
@@ -30,7 +31,7 @@
 ##  呼叫套件
 --js  
  //  呼叫DatePicker  ID為INPUT的ID 
-$("#datePicker").myDatePicker();
+     $("#datePicker").myDatePicker();
 
 ## 說明
 -可重複引用(同時使用很多不同ID)
