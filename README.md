@@ -14,7 +14,7 @@
 
 --css
 
-link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css"
+< link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css " >
  
 
 ## 套件html
