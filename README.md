@@ -2,7 +2,7 @@
 
 ## 引用JQuery
    Jquery
-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
 ## 引用JmyDatePicker套件JS及CSS
@@ -13,7 +13,7 @@
 
 --css
 
-<link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css">
+<p><link rel="stylesheet" href="https://github.com/dstsidragon/myDatePickerUI/blob/main/css/datePicker.css"></p>
  
 
 ## 套件html
