@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myDatePicker套件 </title>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/datePicker.css">
+  <script src="js/datePicker.js"></script>
+</head>
+
+<body>
+  <h2 class="c_red">myDatePicker套件 <br> ***可重複引用*** </h2>
+  <!--     DatePicker   Start   -->
+    <!-- span的ID可自定義 -->
+    <span id="datePickerParent">
+        <label for="datePicker">日期:</label>
+        <!-- input的ID可自定義 -->
+        <input id="datePicker" type="text" >
+    </span>
+    <!--     DatePicker   End   -->
+
+
+
+
+  <script>
+     $(document).ready(function() {
+        //  呼叫DatePicker 
+            $("#datePicker").myDatePicker();
+     })
+       
+
+    </script>
+</body>
+
+</html>

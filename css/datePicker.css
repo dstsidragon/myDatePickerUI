@@ -1,0 +1,49 @@
+
+
+.calTab{
+  position: relative;
+  top:1px;
+  left:40px;
+  /* 漸層 */
+  background: rgb(149,149,149);
+  background: -moz-linear-gradient(top,  rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
+  background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 );
+  
+
+  /* 陰影 */
+  box-shadow: 6px 9px 34px 1px #26335E;
+-webkit-box-shadow: 6px 9px 34px 1px #26335E;
+-moz-box-shadow: 6px 9px 34px 1px #26335E;
+-o-box-shadow: 6px 9px 34px 1px #26335E;
+
+  color: #FFF; 
+  border:1px solid rgb(0, 18, 121);
+  display:none;
+  cursor: pointer;
+}
+
+
+.text-center{
+  text-align: center; 
+}
+.yellow{
+  background-color: rgb(165, 165, 0);
+}
+.blue{
+  background-color: rgb(37, 93, 175);
+}
+.d_flex{
+  display: flex;
+}
+.flex_direction_column{
+  flex-direction: column;
+}
+.d_block{
+  display: block;
+}
+
+.c_red{
+  color: red;
+}
